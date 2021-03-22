@@ -27,7 +27,7 @@ from sklearn.metrics import roc_auc_score
 RUN_TIMES = 1
 batch_size = 64
 episode_max = 10000
-epsilon = 0.01
+epsilon = 0.05
 k = 0.3
 
 
@@ -65,7 +65,7 @@ def main(input_path):
 
 if __name__ == "__main__":
     warnings.filterwarnings('ignore')
-    input_root = "data/heart.csv"
+    input_root = "data/C5.csv"
     print("Parameters: episilon:{}, k:{}".format(epsilon, k))
     # os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
