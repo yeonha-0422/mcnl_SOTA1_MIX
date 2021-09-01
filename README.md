@@ -1,3 +1,6 @@
+SOTA1 (State of the art)
+논문 [메타 특성을 이용한 네트워크 데이터 이상탐지기법 성능]을 작성하는데 사용한 첫 번째 모델입니다.
+
 # MIX
 ICDM19 - Anomaly Detection / Outlier Detection for Mixed data
 
